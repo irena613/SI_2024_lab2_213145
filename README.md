@@ -39,7 +39,7 @@
 
 ### Објаснување на напишаните unit tests
 
-Петото барање од задачата беше да се направи Multiple Condition критериум за условот if (item.getPrice() > 300 && item.getDiscount() > 0 &&item.getBarcode().charAt(0)== '0'). За да го направиме тоа потребни ни се 8 unit тестови со кои ќе покриеме се бикејќи имаме 8 разнични комбинации. Со 8те тестови наведено подоле се поминува секоја можна комбинација.
+Петтото барање од задачата беше да се направи Multiple Condition критериум за условот if (item.getPrice() > 300 && item.getDiscount() > 0 &&item.getBarcode().charAt(0)== '0'). За да го направиме тоа потребни ни се 8 unit тестови со кои ќе покриеме се бикејќи имаме 8 разнични комбинации. Со 8те тестови наведено подоле се поминува секоја можна комбинација.
 
     P = item.getPrice() > 300
     D = item.getDiscount() > 0
@@ -58,7 +58,7 @@
         Item cookie3 = new Item("cookie3", "0613", 350, 0);
         assertFalse(SILab2.checkCart(Collections.singletonList(cookie3), 100));
 
-        //P=T D=F B=F овој тест случај е за кога условот за попустотт и условот за баркодо не е исполнет
+        //P=T D=F B=F овој тест случај е за кога условот за попустот и условот за баркодот не е исполнет
         Item cookie4 = new Item("cookie4", "613", 350, 0);
         assertFalse(SILab2.checkCart(Collections.singletonList(cookie4), 100));
 
@@ -66,7 +66,7 @@
         Item cookie5 = new Item("cookie5", "0613", 250, 0.3F);
         assertFalse(SILab2.checkCart(Collections.singletonList(cookie5), 100));
 
-        //P=F D=T B=F овој тест случај е за кога условот за цената и условот за баркодо не е исполнет
+        //P=F D=T B=F овој тест случај е за кога условот за цената и условот за баркодот не е исполнет
         Item cookie6 = new Item("cookie6", "613", 250, 0.3F);
         assertFalse(SILab2.checkCart(Collections.singletonList(cookie6), 100));
 
@@ -74,8 +74,8 @@
         Item cookie7 = new Item("cookie7", "0613", 250, 0);
         assertFalse(SILab2.checkCart(Collections.singletonList(cookie7), 100));
 
-        //P=F D=F B=F ова е кога ниеден услов не е исполнет
+        //P=F D=F B=F овој тест случај е за кога ниеден услов не е исполнет
         Item cookie8 = new Item("cookie8", "613", 250, 0);
         assertFalse(SILab2.checkCart(Collections.singletonList(cookie8), 100));
 
-Тука се искористени тест случај со 1 со assertTrue и седум тест случаи со assertFalse бидејќи станува збор за AND услов во кој што мора сите услови да се исполнат мора да бидат точни за да биде исполнет.
+Тука се искористени: тест случај со 1 со assertTrue и седум тест случаи со assertFalse бидејќи станува збор за AND услов во кој што мора сите услови бидат точни за да биде исполнет.
