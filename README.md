@@ -3,7 +3,8 @@
 ###  Control Flow Graph
 
 Фотографија од control flow graph-ot 
-![Lab2](https://github.com/irena613/SI_2024_lab2_213145/assets/163119884/4e5fdb8f-8341-498c-8962-172157ed8efd)
+
+![Lab2](https://github.com/irena613/SI_2024_lab2_213145/assets/163119884/eb93b90c-ac5f-4adf-a190-61384c359568)
 
 
 ### Цикломатска комплексност
@@ -12,7 +13,7 @@
 
 ### Тест случаи според критериумот  Every Branch 
 
-![Lab2-brojcinja](https://github.com/irena613/SI_2024_lab2_213145/assets/163119884/ce2ba6a5-4813-4dfa-a33e-d92b48aefe3d)
+![Lab2-brojcinja](https://github.com/irena613/SI_2024_lab2_213145/assets/163119884/06db34cb-f03d-4a81-b697-b94b78987d00)
 
 
 Бројот на тест случаи кои се потребни за да се постигне Every Branch критериумот е 5. Во овој случај тест примерите кои јас ги имам се следните:
