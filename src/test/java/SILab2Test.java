@@ -61,7 +61,7 @@ class SILab2Test {
         assertFalse(SILab2.checkCart(Collections.singletonList(cookie7), 100));
 
         //P=F D=F B=F
-        Item cookie8 = new Item("cookie8", "0613", 250, 0);
+        Item cookie8 = new Item("cookie8", "613", 250, 0);
         assertFalse(SILab2.checkCart(Collections.singletonList(cookie8), 100));
 
     }
